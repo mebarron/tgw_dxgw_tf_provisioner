@@ -28,7 +28,7 @@ resource "aws_ec2_transit_gateway_peering_attachment" "account-a-peering-attachm
   transit_gateway_id      = local.account_a_data.outputs.account_a_tgw_id.value
 
   tags = {
-    Name = "TGW Peering Requestor"
+    Name = "West Transit Gateway"
   }
 }
 
