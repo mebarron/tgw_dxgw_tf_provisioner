@@ -8,13 +8,8 @@
 - buid.sh script configures AWS account IDs as Terraform environment variables
 - destroy.sh script destroys all of the resources created in each account
 - Create IAM role for Terraform to assume and cross-account trust policy
-<<<<<<< HEAD
 - tfexecutor.py loops through each account's main.tf and provisions resources
-- Terraform outputs and provider aliases to switch between accounts
-=======
-- tfrunner.py script loops through each account's main.tf and provisions resources
-- Use Terraform outputs and provider aliases to switch between accounts
->>>>>>> refs/remotes/origin/main
+- Terraform outputs and provider aliases used to switch between accounts
 
 ## Things to consider
 
