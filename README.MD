@@ -24,6 +24,7 @@ integration/deployment tool, such as Jenkins or CodePipeline
 ## Additional accounts
 
 - This project can scale to additional accounts by replicating what has been done in 
-account_a and account_b, up to the limit for Transit Gateway peering attachments
+account_a and account_b, up to the limit for Transit Gateway VPC attachments and
+Transit Gateway peering attachments
 
 
