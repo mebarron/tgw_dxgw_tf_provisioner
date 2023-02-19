@@ -1,6 +1,10 @@
 #1/bin/bash 
 
+<<<<<<< HEAD
 python3 tfexecutor.py account_a account_b account_a_attachment account_b_attachment dxgw_account destroy
+=======
+python3 tfrunner.py account_a account_b account_a_attachment account_b_attachment direct_connect destroy
+>>>>>>> refs/remotes/origin/main
 
 rm ./account_a/.terraform.lock*
 rm ./account_a/terraform*
