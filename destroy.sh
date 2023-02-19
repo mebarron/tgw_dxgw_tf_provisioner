@@ -1,6 +1,6 @@
 #1/bin/bash 
 
-python3 tfrunner.py account_a account_b account_a_attachment account_b_attachment dxgw_account destroy
+python3 tfrunner.py account_a account_b account_a_attachment account_b_attachment direct_connect destroy
 
 rm ./account_a/.terraform.lock*
 rm ./account_a/terraform*
