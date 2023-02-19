@@ -15,7 +15,7 @@
 
 - Production environments should use a remote state backend, such as an S3 bucket
 so that state data is shared across teams and projects
-- Terraform should run on a dedicated EC2 instance in a shared resoruces or management
+- Terraform should run on a dedicated EC2 instance in a shared resources or management
 account and assume the IAM role in each spoke account
 - Configure VPC NACLs, VPC routes tables, and Transit Gateway route tables
 - Ideally, this would be managed in a source repo and triggered by some continuous
