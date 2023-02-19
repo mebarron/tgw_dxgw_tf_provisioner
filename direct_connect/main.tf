@@ -22,10 +22,10 @@ provider "aws" {
 provider "aws" {
   alias  = "aws-account-a-west"
   region = "us-west-2"
-  #assume_role {
-  #  role_arn     = "arn:aws:iam::${var.AWS_ACCOUNT_A_NUMBER}:role/tfrunner"
-  #  session_name = "tfsession-us-west-2"
-  #}
+  assume_role {
+    role_arn     = "arn:aws:iam::${var.AWS_ACCOUNT_A_NUMBER}:role/tfrunner"
+    session_name = "tfsession-us-west-2"
+  }
 }
 
 provider "aws" {
