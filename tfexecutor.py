@@ -1,7 +1,6 @@
 import os
 import sys
 
-session_name = 'tf-session'
 t_chdir = 'terraform -chdir='
 
 def tfdestroy(tfdirs):
