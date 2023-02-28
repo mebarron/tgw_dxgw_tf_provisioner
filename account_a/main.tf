@@ -10,10 +10,10 @@ variable AWS_ACCOUNT_A_NUMBER {}
 
 provider "aws" {
   region = "us-west-2"
-  #assume_role {
-   # role_arn     = "arn:aws:iam::${var.AWS_ACCOUNT_A_NUMBER}:role/tfrunner"
-    #session_name = "tfsession-us-west-2"
-  #}
+  assume_role {
+    role_arn     = "arn:aws:iam::${var.AWS_ACCOUNT_A_NUMBER}:role/tfrunner"
+    session_name = "tfsession-us-west-2"
+  }
 }
 
 # Create transit gateway
